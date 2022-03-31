@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "../styles/App.css";
 import Search from "./SearchComponent";
-import SearchResults from "./SearchResults";
+import SearchResults from "./SearchResultsComponent";
 
 function App() {
   const [searchResults, setSearchResults] = useState();

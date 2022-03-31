@@ -1,0 +1,10 @@
+.card-image{
+    width: 30%;
+    height: 50%;
+    margin: auto;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+}
