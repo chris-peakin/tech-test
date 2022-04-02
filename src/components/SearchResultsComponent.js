@@ -9,9 +9,11 @@ function SearchResults({ results }) {
         return (
             <>
             <p className="paragraph">Search Results:</p>
+            <div className="arranged-images">
             {results.map((image) =>  (
                 <img className="card-image" src={image} alt="space-image" />
             ))}
+            </ div> 
             </>
         );
     }
