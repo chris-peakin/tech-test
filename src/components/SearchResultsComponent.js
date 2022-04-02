@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "../styles/SearchResultsStyle.css"
 
@@ -11,6 +12,6 @@ function SearchResults() {
             alt="space-image" />
         </>
     );
-}
+};
 
 export default SearchResults;
