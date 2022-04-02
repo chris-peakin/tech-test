@@ -2,7 +2,7 @@
 import React from "react";
 import "../styles/SearchResultsStyle.css"
 
-function SearchResults({results}) {
+function SearchResults({ results }) {
     if (!results.length) {
         return <p>No results!</p>
     } else {
