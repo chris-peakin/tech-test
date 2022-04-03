@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/SearchStyle.css";
 import getImages from "../requests/getImagesRequest";
+import PropTypes from "prop-types";
 
 const Search = ({setSearchResults}) => {
     const [value, setValue] = useState();
@@ -17,6 +18,10 @@ const Search = ({setSearchResults}) => {
             </form>
         </div>
     );
+};
+
+Search.propTypes ={
+    setSearchResults: PropTypes.string,
 };
 
 export default Search;
