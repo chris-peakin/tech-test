@@ -17,3 +17,17 @@ The instructions for running the App are very simple and are displayed in your b
 ## Packages used to make and test the App
 
 This App was created using React, PropTypes and Axios. Jest has been used to perform the testing. Links are provided below.
+
+## Further developments for the App
+
+If possible, one small thing I'd like to add is a number to each of the images.
+
+## Screenshots
+
+### Desktop
+
+![desktop](https://github.com/chris-peakin/tech-test/blob/main/screenshots/desktop.png)
+
+### Mobile
+
+![mobile](https://github.com/chris-peakin/tech-test/blob/main/screenshots/mobile.png)
