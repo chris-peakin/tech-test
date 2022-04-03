@@ -30,4 +30,4 @@ If possible, one small thing I'd like to add is a number to each of the images.
 
 ### Mobile
 
-![mobile](https://github.com/chris-peakin/tech-test/blob/main/screenshots/mobile.png = {width="60%" height="50%")
+![mobile](https://github.com/chris-peakin/tech-test/blob/main/screenshots/mobile.png | width="200")
