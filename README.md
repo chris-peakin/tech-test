@@ -31,3 +31,27 @@ If possible, one small thing I'd like to add is a number to each of the images.
 ### Mobile
 
 <img src="https://github.com/chris-peakin/tech-test/blob/main/screenshots/mobile.png" width="300" />
+
+## Links
+
+### Dependencies
+
+React: https://reactjs.org/
+
+Prop Types: https://www.npmjs.com/package/prop-types
+
+Axios: https://www.npmjs.com/package/axios
+
+### Development Dependencies
+
+Jest: https://jestjs.io/
+
+### Other
+
+Manchester Codes: https://www.manchestercodes.com/
+
+NASA Image Search: https://images.nasa.gov/
+
+## Author
+
+Chris Peakin - Oct 2021 Cohort - Manchester Codes
