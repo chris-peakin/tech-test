@@ -1,11 +1,9 @@
-import React from "react";
-import {render} from "@testing-library/react";
+import renderer from "react-test-renderer";
 import App from "../components/App";
 
 describe("App", () => {
-  const {asFragment} = render(<App/>);
-  
+  const testRenderer = renderer.create(<App />);
   it("app renders correctly", () => {
-    expect(asFragment).toMatchSnapshot();
+    expect(testRenderer).toMatchSnapshot();
   });
 });

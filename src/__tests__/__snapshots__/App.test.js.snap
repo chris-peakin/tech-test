@@ -1,3 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App app renders correctly 1`] = `[Function]`;
+exports[`App app renders correctly 1`] = `
+<div
+  className="App"
+>
+  <img
+    alt="nasaLogo"
+    className="nasa-logo"
+    src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+  />
+  <div
+    className="Search"
+  >
+    <form
+      className="searchForm"
+      onSubmit={[Function]}
+    >
+      <input
+        className="search-input"
+        onChange={[Function]}
+        type="text"
+      />
+      <button
+        className="search-button"
+        type="submit"
+      >
+        Tally Ho!
+      </button>
+    </form>
+  </div>
+  <p
+    className="paragraph"
+  >
+    Either a term has not yet been entered, or there are no results for that particular term. Type a search term above and click "Tally Ho!".
+  </p>
+</div>
+`;

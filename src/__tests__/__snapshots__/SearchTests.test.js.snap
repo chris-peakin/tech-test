@@ -1,3 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`search component search component renders correctly 1`] = `[Function]`;
+exports[`search component search component renders correctly 1`] = `
+<div
+  className="Search"
+>
+  <form
+    className="searchForm"
+    onSubmit={[Function]}
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      type="text"
+    />
+    <button
+      className="search-button"
+      type="submit"
+    >
+      Tally Ho!
+    </button>
+  </form>
+</div>
+`;

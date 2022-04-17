@@ -1,12 +1,11 @@
-import React from "react";
-import { render } from "@testing-library/react";
+import renderer from "react-test-renderer";
 import Search from "../components/SearchComponent";
 
 describe("search component", () =>{
     const validProps = "generic search term";
-    const {asFragment} = render(<Search setSearchResults = {validProps} />);
+    const testRenderer = renderer.create(<Search setSearchResults = {validProps} />);
 
     it("search component renders correctly", () =>{
-        expect(asFragment).toMatchSnapshot();
+        expect(testRenderer).toMatchSnapshot();
     });
 });

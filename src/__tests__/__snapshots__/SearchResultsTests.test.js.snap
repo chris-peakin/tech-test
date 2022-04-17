@@ -1,3 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`search results component search results component renders correctly 1`] = `[Function]`;
+exports[`search results component search results component renders correctly 1`] = `
+Array [
+  <p
+    className="paragraph"
+  >
+    Search Results:
+  </p>,
+  <div
+    className="arranged-images"
+  >
+    <img
+      alt="space-image"
+      className="card-image"
+      src="image1"
+    />
+    <img
+      alt="space-image"
+      className="card-image"
+      src="image2"
+    />
+    <img
+      alt="space-image"
+      className="card-image"
+      src="image3"
+    />
+  </div>,
+]
+`;
