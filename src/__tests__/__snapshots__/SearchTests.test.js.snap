@@ -2,10 +2,10 @@
 
 exports[`search component search component renders correctly 1`] = `
 <div
-  className="Search"
+  className="search"
 >
   <form
-    className="searchForm"
+    className="search-form"
     onSubmit={[Function]}
   >
     <input

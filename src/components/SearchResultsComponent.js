@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "../styles/SearchResultsStyle.css"
 import PropTypes from "prop-types";
@@ -12,7 +11,7 @@ function SearchResults({ results }) {
             <p className="paragraph">Search Results:</p>
             <div className="arranged-images">
             {results.map((image) =>  (
-                <img className="card-image" src={image} alt="space-image" />
+                <img className="celestial-body" src={image} alt="celestial-body" />
             ))}
             </ div> 
             </>

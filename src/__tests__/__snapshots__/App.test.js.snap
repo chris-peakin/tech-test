@@ -10,10 +10,10 @@ exports[`App app renders correctly 1`] = `
     src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
   />
   <div
-    className="Search"
+    className="search"
   >
     <form
-      className="searchForm"
+      className="search-form"
       onSubmit={[Function]}
     >
       <input

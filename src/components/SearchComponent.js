@@ -11,8 +11,8 @@ const Search = ({setSearchResults}) => {
     };
 
     return (
-        <div className="Search">
-            <form className="searchForm" onSubmit={handleSubmit}>
+        <div className="search">
+            <form className="search-form" onSubmit={handleSubmit}>
                 <input className="search-input" type="text" onChange={(e) => setValue(e.target.value)}/>
                 <button className="search-button" type="submit">Tally Ho!</button>
             </form>

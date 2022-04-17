@@ -11,18 +11,18 @@ Array [
     className="arranged-images"
   >
     <img
-      alt="space-image"
-      className="card-image"
+      alt="celestial-body"
+      className="celestial-body"
       src="image1"
     />
     <img
-      alt="space-image"
-      className="card-image"
+      alt="celestial-body"
+      className="celestial-body"
       src="image2"
     />
     <img
-      alt="space-image"
-      className="card-image"
+      alt="celestial-body"
+      className="celestial-body"
       src="image3"
     />
   </div>,
